@@ -2,6 +2,7 @@ package Java_Lv2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Stack;
 
 public class LargeNumberBehind {
     public static void main(String[] args) {
@@ -17,18 +18,19 @@ public class LargeNumberBehind {
     public static int[] solution(int[] numbers) {
         int[] answer = new int[numbers.length];
 
-        for (int i = 0; i < numbers.length-1; i++) {
+        Stack<Integer> notFound = new Stack<>();
 
-            int num = -1;
-            for( int j = i+1 ; j < numbers.length ; j++){
-                if ( num == -1 && numbers[i] < numbers[j] ){
-                    num = numbers[j];
-                    break;
-                }
+        for (int i = 0; i < numbers.length; i++) {
+
+            while ( !notFound.isEmpty() && numbers[notFound.peek()] < numbers[i] ){
+                answer[notFound.pop()] = numbers[i];
             }
-            answer[i] = num;
+            notFound.add(i);
         }
-        answer[answer.length-1] = -1;
+
+        for (int i = 0; i < answer.length; i++) {
+            if( answer[i] == 0 ) answer[i] = -1;
+        }
 
         return answer;
     }
