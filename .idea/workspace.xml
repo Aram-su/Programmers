@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1cfecf4-2376-45d4-abdb-337c6c35af39" name="Changes" comment="프로그래머스 Java Lv3 뒤에 있는 큰 수 찾기&#10;- 문제 해결&#10;- Stack 이용하는 방법으로 수정&#10;- 검색을 통해 도움을 받았다. 스스로 더 생각해 볼 것">
-      <change afterPath="$PROJECT_DIR$/src/Java_Lv3/IntegerTriangle.java" afterDir="false" />
+    <list default="true" id="d1cfecf4-2376-45d4-abdb-337c6c35af39" name="Changes" comment="프로그래머스 Java Lv3 정수 삼각형&#10;- 비슷한 문제를 풀어보아서 빨리 풀었다.">
+      <change afterPath="$PROJECT_DIR$/src/Java_Lv3/BestSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +76,7 @@
       <updated>1687250105812</updated>
       <workItem from="1687250106873" duration="7154000" />
       <workItem from="1687344913622" duration="7921000" />
-      <workItem from="1687408411156" duration="15003000" />
+      <workItem from="1687408411156" duration="16687000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1687257439718</created>
@@ -134,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687429309718</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="프로그래머스 Java Lv3 정수 삼각형&#10;- 비슷한 문제를 풀어보아서 빨리 풀었다.">
+      <created>1687430374389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687430374389</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
     <MESSAGE value="프로그래머스 Java Lv2 뒤에 있는 큰 수 찾기&#10;- 문제 해결 실패&#10;- 일부 문제는 성공했지만&#10;- 속도 초과로 인하여 실패하는 문제들이 존재함" />
     <MESSAGE value="프로그래머스 Java Lv3 이중우선순위큐" />
     <MESSAGE value="프로그래머스 Java Lv3 뒤에 있는 큰 수 찾기&#10;- 문제 해결&#10;- Stack 이용하는 방법으로 수정&#10;- 검색을 통해 도움을 받았다. 스스로 더 생각해 볼 것" />
-    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 Java Lv3 뒤에 있는 큰 수 찾기&#10;- 문제 해결&#10;- Stack 이용하는 방법으로 수정&#10;- 검색을 통해 도움을 받았다. 스스로 더 생각해 볼 것" />
+    <MESSAGE value="프로그래머스 Java Lv3 정수 삼각형&#10;- 비슷한 문제를 풀어보아서 빨리 풀었다." />
+    <option name="LAST_COMMIT_MESSAGE" value="프로그래머스 Java Lv3 정수 삼각형&#10;- 비슷한 문제를 풀어보아서 빨리 풀었다." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Programmers$LargeNumberBehind.ic" NAME="LargeNumberBehind Coverage Results" MODIFIED="1687417123770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
