@@ -6,23 +6,20 @@ import java.util.HashSet;
 
 class ConvertNumber {
     public int solution(int x, int y, int n) {
-        int min = -1;
-
         Queue<int[]> que = new LinkedList<>();
         HashSet<Integer> distinct = new HashSet<>();
+
         que.add(new int[]{x, 0});
-        distinct.add(x);
+
         while (!que.isEmpty()) {
             int[] tmp = que.poll();
             int num = tmp[0];
             int cnt = tmp[1];
-            distinct.remove(num);
 
             if (num > y) continue;
 
             if (num == y) {
-                min = cnt;
-                break;
+                return cnt;
             } else {
                 cnt++;
                 if (!distinct.contains(num + n)) {
@@ -39,6 +36,6 @@ class ConvertNumber {
                 }
             }
         }
-        return min;
+        return -1;
     }
 }
